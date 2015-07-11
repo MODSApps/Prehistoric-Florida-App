@@ -48,7 +48,7 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
-                android:id="@+id/imageButton"
+                android:id="@+id/trivia_button"
                 android:layout_column="12"
                 android:background="@drawable/trivia_button" />
         </TableRow>
@@ -60,7 +60,7 @@
             <ImageButton
                 android:layout_width="500dp"
                 android:layout_height="75dp"
-                android:id="@+id/imageButton2"
+                android:id="@+id/animal_button"
                 android:layout_column="12"
                 android:background="@drawable/prehistoric_button" />
         </TableRow>
@@ -72,7 +72,7 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
-                android:id="@+id/imageButton3"
+                android:id="@+id/sealevel_button"
                 android:layout_column="12"
                 android:background="@drawable/sea_level_button" />
         </TableRow>
@@ -84,7 +84,7 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
-                android:id="@+id/imageButton3"
+                android:id="@+id/fossils_button"
                 android:layout_column="12"
                 android:background="@drawable/fossils_button" />
         </TableRow>
