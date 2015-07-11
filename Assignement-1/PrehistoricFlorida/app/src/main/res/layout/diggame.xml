@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/prehistoric_background"
+    android:background="@drawable/background"
     android:gravity="top"
     android:padding="30dip">
 
@@ -11,15 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Exit Dig Game"
-            android:layout_marginBottom="0dp"
-
-            android:id="@+id/button" />
-
 
 
     </TableRow>
@@ -29,28 +20,30 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_marginBottom="0dp"
-        android:textSize="40dp"
+        android:textSize="75dp"
         android:paddingLeft="50dp"
         android:textStyle="bold|italic" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/dirt">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="450dp"
+            android:layout_height="50dp"
             android:text="More info about Paleontology and Fossils"
             android:id="@+id/button7"
             android:gravity="bottom"
             android:layout_gravity="center_horizontal"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/buttontexture"
+            android:background="@drawable/blankbutton"
             android:paddingBottom="20dp"
             android:paddingLeft="50dp"
-            android:paddingRight="50dp" />
+            android:paddingRight="50dp"
+            android:textStyle="italic" />
 
 
     </RelativeLayout>

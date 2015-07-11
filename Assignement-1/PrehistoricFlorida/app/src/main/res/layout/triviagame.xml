@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/prehistoric_background"
+    android:background="@drawable/background"
     android:gravity="top"
     android:padding="30dip">
 
@@ -13,16 +13,6 @@
         android:layout_height="wrap_content"
         >
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Exit Trivia Game"
-            android:layout_marginBottom="0dp"
-
-            android:id="@+id/button" />
-
-
-
 
     </TableRow>
 
@@ -31,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_marginBottom="0dp"
-        android:textSize="40dp"
+        android:textSize="75dp"
         android:paddingLeft="50dp"
         android:textStyle="bold|italic" />
 
@@ -41,8 +31,8 @@
         android:layout_gravity="center_horizontal">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
             android:text="Answer 3"
             android:id="@+id/button2"
             android:paddingLeft="100dp"
@@ -51,11 +41,11 @@
             android:paddingBottom="25dp"
             android:layout_above="@+id/button5"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/buttontexture" />
+            android:background="@drawable/blankbutton" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
             android:text="Answer 2"
             android:id="@+id/button3"
             android:paddingLeft="100dp"
@@ -64,11 +54,11 @@
             android:paddingBottom="25dp"
             android:layout_above="@+id/button2"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/buttontexture" />
+            android:background="@drawable/blankbutton" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
             android:text="Answer 1"
             android:id="@+id/button4"
             android:paddingLeft="100dp"
@@ -77,11 +67,11 @@
             android:paddingBottom="25dp"
             android:layout_above="@+id/button3"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/buttontexture" />
+            android:background="@drawable/blankbutton" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
             android:text="Answer 4"
             android:id="@+id/button5"
             android:paddingLeft="100dp"
@@ -91,7 +81,7 @@
             android:layout_marginBottom="141dp"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/buttontexture" />
+            android:background="@drawable/blankbutton" />
 
         <TextView
             android:layout_width="wrap_content"

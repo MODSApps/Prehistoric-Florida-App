@@ -3,9 +3,56 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/prehistoric_background"
-    android:gravity="top"
-    android:padding="30dip">
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:padding="30dip"
+    android:weightSum="1">
 
+    <RelativeLayout
+        android:layout_width="528dp"
+        android:layout_height="413dp"
+        android:layout_weight="1.22">
+
+
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="600dp"
+            android:inputType="none"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:text="facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts facts "
+            android:textStyle="bold|italic"
+            android:textSize="35dp"
+            android:textColor="#000000"
+            android:shadowColor="#00008B"
+            android:scrollbars="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="51dp" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView2"
+            android:layout_alignTop="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="73dp" />
+
+        <TextView
+            android:text="Fun Facts"
+            android:layout_height="wrap_content"
+            android:layout_width="800dp"
+            android:textSize="60dp"
+            android:paddingLeft="50dp"
+            android:textStyle="bold|italic"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingTop="40dp" />
+
+
+    </RelativeLayout>
 
 </LinearLayout>
