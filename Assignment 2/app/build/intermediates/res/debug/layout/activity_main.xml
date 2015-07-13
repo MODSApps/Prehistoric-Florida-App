@@ -1,0 +1,95 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:padding="30dip">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/title"
+        android:paddingTop="75dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:id="@drawable/vmnh_megalodon"
+        android:visibility="visible"
+        android:src="@drawable/megalodonlogo" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TableLayout
+        android:layout_width="500dp"
+        android:layout_height="410dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:id="@+id/trivia_button"
+                android:layout_column="12"
+                android:background="@drawable/trivia_button" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="500dp"
+                android:layout_height="75dp"
+                android:id="@+id/animal_button"
+                android:layout_column="12"
+                android:background="@drawable/prehistoric_button" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:id="@+id/sealevel_button"
+                android:layout_column="12"
+                android:background="@drawable/sea_level_button" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:id="@+id/fossils_button"
+                android:layout_column="12"
+                android:background="@drawable/fossils_button" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout><!-- From: file:/C:/Users/Marcus/StudioProjects/MODSApp/app/src/main/res/layout/activity_main.xml -->
