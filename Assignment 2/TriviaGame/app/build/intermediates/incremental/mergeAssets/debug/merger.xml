@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/jarrodmaloney/Downloads/TriviaGame/app/src/main/assets"><file name="mobile_trivia2.db" path="/Users/jarrodmaloney/Downloads/TriviaGame/app/src/main/assets/mobile_trivia2.db"/></source></dataSet><dataSet config="debug"><source path="/Users/jarrodmaloney/Downloads/TriviaGame/app/src/debug/assets"/></dataSet></merger>
