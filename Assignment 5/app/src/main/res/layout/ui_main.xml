@@ -1,0 +1,75 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/prehistoric_background"
+    android:gravity="center"
+    android:padding="30dip">
+    <TextView
+        android:text="Prehistoric Florida"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="25dip"
+        android:textSize="70sp"
+        android:paddingLeft="100dp"
+        android:textStyle="bold|italic"
+        android:paddingTop="40dp" />
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="250dp"
+        android:id="@drawable/vmnh_megalodon"
+        android:visibility="visible"
+        android:src="@drawable/museumlogo" />
+
+    <Space
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/new_button"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="347dp"
+        android:layout_height="317dp"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/trivia_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Trivia Game"
+            android:layout_above="@+id/animal_button"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/buttontexture" />
+        <Button
+            android:id="@+id/animal_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Prehistoric Animals"
+            android:layout_above="@+id/sealevel_button"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/buttontexture" />
+        <Button
+            android:id="@+id/sealevel_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sea Level Changes"
+            android:layout_above="@+id/fossils_button"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/buttontexture" />
+        <Button
+            android:id="@+id/fossils_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Paleontology and Fossils"
+            android:layout_marginBottom="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/buttontexture" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

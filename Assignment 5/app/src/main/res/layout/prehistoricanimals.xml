@@ -1,0 +1,90 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:padding="30dip"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:id="@drawable/ice_melt"
+        android:src="@drawable/megalodon"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100dp"
+        android:paddingTop="50dp" />
+
+    <Button
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:text="Click here for the next Animal!"
+            android:id="@+id/next_animal"
+            android:gravity="bottom"
+            android:background="@drawable/blankbutton"
+            android:paddingBottom="20dp"
+            android:paddingLeft="50dp"
+        android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+        android:layout_gravity="right|bottom"
+        android:layout_marginTop="50dp" />
+
+    <Button
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="home"
+            android:id="@+id/home"
+            android:gravity="bottom"
+            android:layout_gravity="left|bottom"
+            android:background="@drawable/blankbutton"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="20dp"
+            android:layout_below="@+id/editText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp" />
+
+    <ScrollView
+            android:layout_width="500dp"
+            android:layout_height="300dp"
+            android:id="@+id/scrollView2"
+            android:layout_alignTop="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="140dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:text="Megalodon were an ancient species of shark that lived around 15.9 to 2.6 million years ago. They are believed to have grown up to 50 feet long and weigh up to 114 tons. "
+            android:textStyle="bold|italic"
+            android:textSize="35dp"
+            android:textColor="#000000"
+            android:shadowColor="#00008B"
+            android:scrollbars="vertical"
+            android:layout_above="@+id/button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal|bottom" />
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="125dp"
+        android:id="@+id/imageView3"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/megalodontitle" />
+
+
+</FrameLayout>
