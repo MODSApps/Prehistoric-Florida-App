@@ -1,0 +1,101 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="top"
+    android:padding="30dip">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+    </TableRow>
+
+    <TextView
+        android:text="Trivia Game"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:textSize="75dp"
+        android:paddingLeft="50dp"
+        android:textStyle="bold|italic" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:text="Answer 1"
+            android:id="@+id/answer1"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:layout_above="@+id/answer2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/blankbutton" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:text="Answer 2"
+            android:id="@+id/answer2"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:layout_above="@+id/answer3"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/blankbutton" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:text="Answer 3"
+            android:id="@+id/answer3"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:layout_above="@+id/answer4"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/blankbutton" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:text="Answer 4"
+            android:id="@+id/answer4"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:layout_marginBottom="141dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/blankbutton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Question"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textSize="70dp"
+            android:textStyle="bold|italic"
+            android:layout_above="@+id/answer1"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="75dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

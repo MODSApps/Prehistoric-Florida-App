@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+
+	<ImageView
+		android:layout_width="250dp"
+		android:layout_height="400dp"
+		android:id="@+id/imageView"
+		android:layout_centerVertical="true"
+		android:layout_centerHorizontal="true"
+		android:background="@drawable/blankbutton" />
+
+	<TextView
+		android:layout_width="30dp"
+		android:layout_height="300dp"
+		android:text="Good Answer!"
+		android:id="@+id/textView"
+		android:textColor="#000000"
+		android:textStyle="bold|italic"
+		android:textSize="40dp"
+		android:layout_centerVertical="true"
+		android:layout_alignStart="@+id/imageView"
+		android:layout_alignEnd="@+id/imageView"
+		android:paddingTop="140dp"
+		android:paddingLeft="50dp" />
+
+	<ImageView
+		android:layout_width="150dp"
+		android:layout_height="150dp"
+		android:id="@+id/imageView2"
+		android:background="@drawable/facebook"
+		android:layout_alignTop="@+id/textView"
+		android:layout_centerHorizontal="true" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Marcus/StudioProjects/MODSApp/app/TriviaGame/src/main/res/layout/correctansweractivity.xml -->

@@ -1,0 +1,60 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:padding="30dip"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="550dp"
+        android:layout_height="115dp"
+        android:id="@+id/imageView8"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/seatitle" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+            android:layout_width="450dp"
+            android:layout_height="300dp"
+            android:id="@+id/myanimation"
+            android:src="@drawable/ice_melt"
+            android:layout_above="@+id/editText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_below="@drawable/ice_melt"
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:layout_width="500dp"
+                android:layout_height="300dp"
+                android:inputType="none"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:text="For the past centuries the sea level has been rising at somewhat constant rate; however in recent years the rate at which the water is rising has increased dramatically  because of the high melting rate of the polar ice caps. The earliest landmass in Florida was orange island, which emerged approximately 34 million years ago The sea level began to drop due to the ice age In the time of the prehistoric animals florida was completely underwater, for millions of years the sea level was lowering; however, we are now in a period of sea levels rising.  "
+                android:textStyle="bold|italic"
+                android:textSize="35dp"
+                android:textColor="#000000"
+                android:shadowColor="#00008B"
+                android:scrollbars="vertical"
+                style="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="40dp" />
+        </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="top"
+    android:padding="30dip">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="115dp"
+        android:id="@+id/imageView7"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/digtitle" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+    </TableRow>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/dirt">
+
+        <Button
+            android:layout_width="450dp"
+            android:layout_height="50dp"
+            android:text="More info about Paleontology and Fossils"
+            android:id="@+id/button7"
+            android:gravity="bottom"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/blankbutton"
+            android:paddingBottom="20dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout><!-- From: file:/C:/Users/Marcus/StudioProjects/MODSApp/app/src/main/res/layout/diggame.xml -->
