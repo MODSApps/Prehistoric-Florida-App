@@ -2,49 +2,76 @@
 <RelativeLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_height="fill_parent" 
-	android:layout_width="fill_parent" android:background="@drawable/finalscore3">
-	
-	<TextView
-		android:id="@+id/finalscoreimage"
-		android:layout_height="wrap_content" 
-		android:layout_width="wrap_content"
-		android:layout_marginRight="150dip"
-		android:layout_marginTop = "15dip"
-		android:layout_marginLeft="5dip" >
-	</TextView>
-	
+	android:layout_width="fill_parent" android:background="@drawable/background">
+
 	<TextView
 		android:id="@+id/finalscore"
-		android:layout_height="wrap_content" 
-		android:layout_width="wrap_content" 
-		android:layout_marginTop="75dip"
-		android:layout_marginLeft="240dip"
-		android:textStyle="bold" 
-		android:textColor="#ff000000">
+		android:layout_height="350dp"
+		android:layout_width="400dp"
+		android:layout_marginTop="150dp"
+		android:layout_marginLeft="100dp"
+		android:textStyle="bold|italic"
+		android:textColor="#ff000000"
+		android:textSize="50dp"
+		android:background="@drawable/triviabackground"
+		android:gravity="center_vertical|center_horizontal"
+		android:paddingLeft="85dp">
 	</TextView>
-	
+
 	<TextView
 		android:id="@+id/finalmessage"
 		android:layout_height="wrap_content" 
-		android:layout_width="wrap_content" 
-		android:layout_marginTop="169dip"
-		android:layout_marginLeft="175dip"
+		android:layout_width="500dp"
+		android:layout_marginTop="550dp"
+		android:layout_marginLeft="60dp"
 		android:layout_marginRight="13dip"
-		android:textStyle="bold" 
-		android:textColor="#ff000000">
+		android:textStyle="bold|italic"
+		android:textColor="#ff000000"
+		android:textSize="40dp">
 	</TextView>
 	
 
 	<Button
 		android:id="@+id/buttonnewgame"
 		android:text="New Game"		
-		android:layout_height="wrap_content"
-		android:layout_width="wrap_content"
-		android:layout_marginTop="350dip"
-		android:layout_marginLeft="95dip" 
-		android:background="@drawable/buttontoexit2" 
-		android:textStyle="bold">
+		android:layout_height="75dp"
+		android:layout_width="195dp"
+		android:layout_marginLeft="100dp"
+		android:background="@drawable/blankbutton"
+		android:textColor="#ff000000"
+		android:layout_marginBottom="64dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignEnd="@+id/finalscore"
+		android:textSize="25dp">
 	</Button>
+
+	<ImageView
+		android:layout_width="550dp"
+		android:layout_height="110dp"
+		android:id="@+id/imageView6"
+		android:background="@drawable/triviatitle"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/finalscoreimage"
+		android:layout_alignBottom="@+id/finalmessage"
+		android:layout_marginStart="137dp"
+		android:visibility="invisible" />
+
+	<Button
+		android:id="@+id/button"
+		android:text="Home"
+		android:layout_height="75dp"
+		android:layout_width="195dp"
+		android:background="@drawable/blankbutton"
+		android:textColor="#ff000000"
+		android:layout_alignTop="@+id/buttonnewgame"
+		android:layout_alignStart="@+id/finalmessage"
+		android:layout_marginLeft="50dp"
+		android:textSize="25dp" />
 
 </RelativeLayout>
 	
