@@ -31,17 +31,18 @@
         <Button
             android:layout_width="450dp"
             android:layout_height="50dp"
-            android:text="More info about Paleontology and Fossils"
+            android:text="More info!"
             android:id="@+id/button7"
             android:gravity="bottom"
             android:layout_gravity="center_horizontal"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:background="@drawable/blankbutton"
-            android:paddingBottom="20dp"
             android:paddingLeft="50dp"
             android:paddingRight="50dp"
-            android:textStyle="italic" />
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:paddingBottom="10dp" />
 
 
     </RelativeLayout>
