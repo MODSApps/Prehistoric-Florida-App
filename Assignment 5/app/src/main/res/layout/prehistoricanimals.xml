@@ -20,38 +20,6 @@
         android:layout_marginTop="100dp"
         android:paddingTop="50dp" />
 
-    <Button
-            android:layout_width="340dp"
-            android:layout_height="50dp"
-            android:text="Click here for the next Animal!"
-            android:id="@+id/next_animal"
-            android:gravity="bottom"
-            android:background="@drawable/blankbutton"
-            android:paddingBottom="20dp"
-            android:paddingLeft="50dp"
-        android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-        android:layout_gravity="right|bottom"
-        android:layout_marginTop="50dp" />
-
-    <Button
-            android:layout_width="180dp"
-            android:layout_height="50dp"
-            android:text="home"
-            android:id="@+id/home"
-            android:gravity="bottom"
-            android:layout_gravity="left|bottom"
-            android:background="@drawable/blankbutton"
-            android:paddingLeft="50dp"
-            android:paddingRight="50dp"
-            android:paddingTop="0dp"
-            android:paddingBottom="20dp"
-            android:layout_below="@+id/editText"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-        android:layout_marginTop="45dp" />
-
     <ScrollView
             android:layout_width="500dp"
             android:layout_height="300dp"
@@ -67,16 +35,16 @@
             android:inputType="none"
             android:ems="10"
             android:id="@+id/editText"
-            android:text="Megalodon were an ancient species of shark that lived around 15.9 to 2.6 million years ago. They are believed to have grown up to 50 feet long and weigh up to 114 tons. "
-            android:textStyle="bold|italic"
-            android:textSize="35dp"
+            android:text="Megalodon were an ancient species of shark that lived around 15.9 to 2.6 million years ago.\n \n These ferocious sharks were one of the largest and most powerful predators in history growing up to 50 feet long and weighing up to an astounding 114 tons.\n \n These massive animals also had massive jaws to go with them. These jaws had a bite force of up to 182,000 newtons! Great White Shark only have a bite force of up to 18, 216 newtons.They could chomp through any prey, especially with their large teeth (Megalodon literally means big tooth). The largest tooth ever found was a whopping 7.25 inches"
+            android:textSize="30dp"
             android:textColor="#000000"
             android:shadowColor="#00008B"
             android:scrollbars="vertical"
             android:layout_above="@+id/button"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_gravity="center_horizontal|bottom" />
+            android:layout_gravity="right|top"
+        />
     </ScrollView>
 
     <ImageView
@@ -85,6 +53,36 @@
         android:id="@+id/imageView3"
         android:layout_gravity="center_horizontal|top"
         android:background="@drawable/megalodontitle" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:id="@+id/button18"
+        android:gravity="bottom"
+        android:layout_gravity="right|bottom"
+        android:background="@drawable/homebutton"
+        android:paddingLeft="50dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="20dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="360dp" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:id="@+id/button18"
+        android:gravity="bottom"
+        android:background="@drawable/nextanimalbutton"
+        android:paddingBottom="20dp"
+        android:paddingLeft="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right|bottom"
+        android:layout_marginTop="50dp" />
 
 
 </FrameLayout>

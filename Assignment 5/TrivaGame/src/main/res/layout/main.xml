@@ -17,7 +17,8 @@
        android:textSize="30dp"
        android:layout_alignParentBottom="true"
        android:layout_centerHorizontal="true"
-       android:layout_marginBottom="116dp" />
+       android:layout_marginBottom="116dp"
+       android:textColor="#000000" />
 
     <ImageView
         android:layout_width="500dp"
@@ -38,7 +39,7 @@
         android:layout_marginRight="50dip"
         android:textStyle="bold|italic"
         android:textSize="50dp"
-        android:text="Test your knowledge of kooky prehistoric Florida!"
+        android:text="Test your knowledge of prehistoric Florida!"
         android:layout_centerVertical="true"
         android:layout_alignParentEnd="true"
         android:ellipsize="middle" />

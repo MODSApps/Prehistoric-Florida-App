@@ -30,7 +30,7 @@
 		android:layout_centerHorizontal="true"
 		android:layout_marginBottom="100dp"
 		android:textStyle="bold|italic"
-		android:textSize="50dp">
+		android:textSize="40dp">
     </TextView>
 
     <TextView

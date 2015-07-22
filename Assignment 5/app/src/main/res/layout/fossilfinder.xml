@@ -1,0 +1,106 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="top"
+    android:padding="30dip">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="115dp"
+        android:id="@+id/imageView7"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/digtitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click a fossil to see which prehistoric animal it came from!"
+        android:id="@+id/textView2"
+        android:textSize="30dp"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="40dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:id="@+id/imageButton4"
+            android:background="@drawable/turtlefossil"
+            android:text="Archelon"
+            android:gravity="center_vertical|center_horizontal|bottom"
+            android:textSize="26dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginRight="70dp" />
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="180dp"
+            android:id="@+id/imageButton3"
+            android:background="@drawable/megalodontooth"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="-7dp"
+            android:textSize="26dp"
+            android:text="Megalodon"
+            android:gravity="center_vertical|center_horizontal|bottom"
+            android:layout_marginTop="-60dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="180dp"
+                android:id="@+id/imageButton6"
+                android:background="@drawable/slothclaw"
+                android:paddingTop="130dp"
+                android:textSize="26dp"
+                android:text="Sloth"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="80dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton5"
+                android:background="@drawable/mammothtusk"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="130dp"
+                android:textSize="26dp"
+                android:text="Mammoth"
+                android:layout_marginTop="-80dp"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Click here for fun facts!"
+            android:id="@+id/button8"
+            android:background="@drawable/blankbutton"
+            android:textSize="25dp"
+            android:layout_marginTop="25dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

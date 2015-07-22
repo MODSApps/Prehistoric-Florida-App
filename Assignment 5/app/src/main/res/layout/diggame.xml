@@ -40,7 +40,6 @@
             android:background="@drawable/blankbutton"
             android:paddingLeft="50dp"
             android:paddingRight="50dp"
-            android:textStyle="italic"
             android:textSize="30dp"
             android:paddingBottom="10dp" />
 

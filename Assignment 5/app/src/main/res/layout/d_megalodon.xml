@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="#000000">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="600dp"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/blankbutton" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/megalodon"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="300dp"
+        android:text="It&apos;s a Megalodon!"
+        android:id="@+id/textView"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:textSize="40dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:paddingTop="0dp"
+        android:paddingLeft="50dp"
+        android:paddingBottom="50dp" />
+
+</RelativeLayout>
