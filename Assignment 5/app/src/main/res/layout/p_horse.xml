@@ -31,21 +31,12 @@
         android:layout_marginBottom="50dp">
 
         <TextView
-            android:layout_width="500dp"
-            android:layout_height="400dp"
-            android:inputType="none"
-            android:ems="10"
-            android:id="@+id/editText"
-            android:text="The three-toed horse is an ancient equestrian previously found in Prehistoric Florida. Approximately the size of a dog, these creatures varied through many different species. Fossils of the horse can still be found in our native Florida today."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The three-toed horse is an ancient equestrian previously found in Prehistoric Florida. \n \n Approximately the size of a dog, these creatures varied through many different species. The two forms of this species either resided in forests or on prairies.  \n \n While commonly found in Florida, these horses could also be spotted in California. Fossils of the horse can still be found in our native Florida today."
+            android:id="@+id/textView8"
             android:textSize="30dp"
-            android:textColor="#000000"
-            android:shadowColor="#00008B"
-            android:scrollbars="vertical"
-            android:layout_above="@+id/button"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_gravity="center"
-            android:autoText="false" />
+            android:textColor="#000000" />
     </ScrollView>
 
     <ImageView

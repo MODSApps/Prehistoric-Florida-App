@@ -61,7 +61,7 @@
             android:layout_width="200dp"
             android:layout_height="70dp"
             android:id="@+id/imageButton"
-            android:background="@drawable/mapbutton"
+            android:background="@drawable/mainbutton"
             android:textSize="30dp"
             android:layout_marginRight="25dp" />
 

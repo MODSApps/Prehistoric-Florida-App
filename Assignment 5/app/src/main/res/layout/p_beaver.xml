@@ -31,21 +31,12 @@
         android:layout_marginBottom="50dp">
 
         <TextView
-            android:layout_width="500dp"
-            android:layout_height="400dp"
-            android:inputType="none"
-            android:ems="10"
-            android:id="@+id/editText"
-            android:text="The Casteroide is an ancient species of beaver. It is known for being the largest beaver to ever exist. A difference between the modern and prehistoric beaver is that the latter had a much smaller brain, hindering its interactions with other animals of the time."
-            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Casteroide is an ancient species of beaver. It is known for being the largest beaver to ever exist. \n \n The creature is known for its large, broad inscisors, and is thought to have participated in extended underwater activity. \n \n A difference between the modern and prehistoric beaver is that the latter had a much smaller brain, hindering its interactions with other animals of the time. \n \n This creature's extinction may have been caused by a period of ecological restructuring occuring at the time."
+            android:id="@+id/textView9"
             android:textColor="#000000"
-            android:shadowColor="#00008B"
-            android:scrollbars="vertical"
-            android:layout_above="@+id/button"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_gravity="center"
-            android:autoText="false" />
+            android:textSize="30dp" />
     </ScrollView>
 
     <TextView

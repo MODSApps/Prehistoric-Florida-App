@@ -31,21 +31,12 @@
         android:layout_marginBottom="50dp">
 
         <TextView
-            android:layout_width="500dp"
-            android:layout_height="400dp"
-            android:inputType="none"
-            android:ems="10"
-            android:id="@+id/editText"
-            android:text="The Florida Cave Bear, weighing about 650 pounds, is roughly the same size as the modern brown bear. The last of its kind are thought to have died off approximately 8,000 years ago."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Florida Cave Bear, weighing about 650 pounds, is roughly the same size as the modern brown bear. It had a dome shaped skull and a very steep forehead. \n \n The Cave Bear&apos;s teeth have more damage than other species of bears, so it is assumed that they consumed tougher materials. \n \n The last of its kind are thought to have died off approximately 8,000 years ago."
+            android:id="@+id/textView11"
             android:textSize="30dp"
-            android:textColor="#000000"
-            android:shadowColor="#00008B"
-            android:scrollbars="vertical"
-            android:layout_above="@+id/button"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_gravity="center"
-            android:autoText="false" />
+            android:textColor="#000000" />
     </ScrollView>
 
     <TextView

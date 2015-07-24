@@ -31,15 +31,24 @@
             android:inputType="none"
             android:ems="10"
             android:id="@+id/editText"
-            android:text="Created by Marcus Elosegui, Jarrod Maloney, and Frankie Prozor for the Museum of Discovery and Science at Florida Atlantic University.\n \n Created with the assistance of Prof. Shenkar, Prof. McAffe, and Santiago ________ as part of the museum&apos;s APPtitude internship program. \n \nAttribution: Megalodon - By Dinosaur Zoo (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons. With modifications by Frankie Prozor.\n \n Terror Bird - Snowmanradio (talk) Paraphysornis_BW.jpg: Nobu Tamura (http://spinops.blogspot.com) - Paraphysornis_BW.jpg. With modifications by Frankie Prozor.\n \n Woolly Mammoth - By Flying Puffin (Mammut Uploaded by FunkMonk) [CC BY-SA 2.0 (http://creativecommons.org/licenses/by-sa/2.0)], via Wikimedia Commons. With modifications by Frankie Prozor.\n \n Sergiodlarosa [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or FAL], via Wikimedia Commons"
-            android:textSize="28dp"
+            android:text=" UI – Jarrod Maloney\n Graphics – Frankie Prozor\n Java – Marcus Elosegui \n \n Instructors:\n \n Summer Scarlatelli\n Joe Cytacki \n Ravi Shenkar \n Francis McAfee \n Santiago Aguerreuere \n Demetrius Dukes
+
+ Image Attribution:\n \nMegalodon - By Dinosaur Zoo (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons. With modifications.
+
+Terror Bird - Snowmanradio (talk) Paraphysornis_BW.jpg: Nobu Tamura (http://spinops.blogspot.com) - Paraphysornis_BW.jpg. With modifications.
+
+Woolly Mammoth - By Flying Puffin (Mammut Uploaded by FunkMonk) [CC BY-SA 2.0 (http://creativecommons.org/licenses/by-sa/2.0)], via Wikimedia Commons. With modifications.
+
+Cave Bear - Sergiodlarosa [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or FAL], via Wikimedia Commons. With modifications."
+            android:textSize="30dp"
             android:textColor="#000000"
             android:shadowColor="#00008B"
             android:scrollbars="vertical"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="51dp" />
+            android:layout_marginBottom="51dp"
+            android:gravity="center_vertical|center_horizontal" />
     </ScrollView>
 
 
